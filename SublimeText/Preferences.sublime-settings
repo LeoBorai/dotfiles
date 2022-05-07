@@ -1,21 +1,24 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-  "font_face": "SF Mono",
-  "font_size": 18,
-    "font_options": [
-    "no_italic",
-    "no_bold",
-  ],
-  "rulers": [80],
-  "tab_size": 2,
-  "draw_white_space": "all",
-  "translate_tabs_to_spaces": true,
-  "theme": "Default Dark.sublime-theme",
-  "color_scheme": "Mariana.sublime-color-scheme",
-  "show_legacy_color_schemes": true,
-  "ignored_packages":
-  [
-    "Vintage",
-  ],
+	"font_face": "SF Mono",
+	"font_size": 16,
+		"font_options": [
+		"no_italic",
+		"no_bold",
+		"no_liga",
+		"no_clig",
+		"no_calt",
+	],
+	"rulers": [80],
+	"tab_size": 2,
+	"draw_white_space": "all",
+	"translate_tabs_to_spaces": true,
+	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"show_full_path": true,
 }
