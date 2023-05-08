@@ -2,27 +2,23 @@
     "editor.tabSize": 2,
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "all",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
     "editor.rulers": [80],
     "breadcrumbs.enabled": true,
     "javascript.validate.enable": true,
     "typescript.validate.enable": true,
     "explorer.compactFolders": false,
+    "editor.fontSize": 16,
     "debug.console.fontSize": 14,
     "markdown.preview.fontSize": 14,
     "terminal.integrated.fontSize": 14,
     "diffEditor.renderSideBySide": false,
-    "editor.fontFamily": "SF Mono",
-    "terminal.integrated.fontFamily": "SF Mono",
-    "debug.console.fontFamily": "SF Mono",
+    "editor.fontFamily": "MonoLisa",
+    "terminal.integrated.fontFamily": "MonoLisa",
+    "debug.console.fontFamily": "MonoLisa",
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.activeIconPack": "none",
     "material-icon-theme.folders.color": "#79b8ff",
     "workbench.startupEditor": "none",
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "workbench.colorTheme": "GitHub Dark Dimmed",
-    "editor.fontSize": 16
+    "typescript.updateImportsOnFileMove.enabled": "never"
 }
