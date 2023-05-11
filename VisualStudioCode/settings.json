@@ -8,6 +8,7 @@
     "typescript.validate.enable": true,
     "explorer.compactFolders": false,
     "editor.fontSize": 16,
+    "editor.inlayHints.enabled": "off",
     "debug.console.fontSize": 14,
     "markdown.preview.fontSize": 14,
     "terminal.integrated.fontSize": 14,
@@ -20,5 +21,7 @@
     "material-icon-theme.folders.color": "#79b8ff",
     "workbench.startupEditor": "none",
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "typescript.updateImportsOnFileMove.enabled": "never"
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "editor.inlineSuggest.enabled": true,
+    "extensions.ignoreRecommendations": true
 }
