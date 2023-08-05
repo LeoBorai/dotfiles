@@ -1,14 +1,27 @@
 {
     "editor.tabSize": 2,
-    "editor.fontLigatures": false,
+    "editor.lineHeight": 0,
     "editor.renderWhitespace": "all",
-    "editor.rulers": [80],
+    "editor.fontLigatures": false,
+    "editor.rulers": [
+        80
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
     "breadcrumbs.enabled": true,
     "javascript.validate.enable": true,
     "typescript.validate.enable": true,
     "explorer.compactFolders": false,
-    "editor.fontSize": 16,
     "editor.inlayHints.enabled": "off",
+    "editor.fontSize": 16,
     "debug.console.fontSize": 14,
     "markdown.preview.fontSize": 14,
     "terminal.integrated.fontSize": 14,
@@ -23,5 +36,8 @@
     "javascript.updateImportsOnFileMove.enabled": "never",
     "typescript.updateImportsOnFileMove.enabled": "never",
     "editor.inlineSuggest.enabled": true,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "svelte.ask-to-enable-ts-plugin": false,
+    "editor.minimap.enabled": false
 }
