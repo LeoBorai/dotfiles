@@ -37,7 +37,7 @@
     "typescript.updateImportsOnFileMove.enabled": "never",
     "editor.inlineSuggest.enabled": true,
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "GitHub Dark Dimmed",
     "svelte.ask-to-enable-ts-plugin": false,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "telemetry.telemetryLevel": "off"
 }
