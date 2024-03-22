@@ -15,6 +15,8 @@
   "theme": "Andromeda",
   "buffer_font_size": 16,
   "buffer_font_family": "MonoLisa",
+  "ui_font_family": "MonoLisa",
+  "ui_font_size": 16,
   "format_on_save": "off",
   "show_whitespaces": "all",
   "show_wrap_guides": true,
