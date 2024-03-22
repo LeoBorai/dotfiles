@@ -7,12 +7,15 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "features": {
+    "copilot": true
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
   "autosave": "off",
-  "theme": "Andromeda",
+  "theme": "Solarized Light",
   "buffer_font_size": 16,
   "buffer_font_family": "MonoLisa",
   "ui_font_family": "MonoLisa",
@@ -22,10 +25,12 @@
   "show_wrap_guides": true,
   "lsp": {
     "rust-analyzer": {
-      "cargo": {
-        "extraEnv": {
-          "CC": "/opt/homebrew/opt/llvm@14/bin/clang",
-          "AR": "/opt/homebrew/opt/llvm@14/bin/llvm-ar"
+      "initialization_options": {
+        "cargo": {
+          "extraEnv": {
+            "CC": "/opt/homebrew/opt/llvm/bin/clang",
+            "AR": "/opt/homebrew/opt/llvm/bin/llvm-ar"
+          }
         }
       }
     }
