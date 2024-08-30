@@ -15,14 +15,20 @@
     "metrics": false
   },
   "autosave": "off",
-  "theme": "Solarized Light",
+  "theme": "Andromeda",
   "buffer_font_size": 16,
   "buffer_font_family": "MonoLisa",
   "ui_font_family": "MonoLisa",
   "ui_font_size": 16,
   "format_on_save": "off",
   "show_whitespaces": "all",
-  "show_wrap_guides": true,
+  "show_copilot_suggestions": true,
+  "project_panel": {
+    "auto_fold_dirs": false
+  },
+  "terminal": {
+    "font_size": 14
+  },
   "lsp": {
     "rust-analyzer": {
       "initialization_options": {
@@ -31,6 +37,7 @@
             "CC": "/opt/homebrew/opt/llvm/bin/clang",
             "AR": "/opt/homebrew/opt/llvm/bin/llvm-ar"
           }
+          // "features": "all"
         }
       }
     }
