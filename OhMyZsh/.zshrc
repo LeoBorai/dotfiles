@@ -102,6 +102,8 @@ source $ZSH/oh-my-zsh.sh
 alias repos="cd ~/Repositories/src/github.com"
 alias subl="open -a 'Sublime Text'"
 alias sublm="open -a 'Sublime Merge'"
+alias chrome="open -a /Applications/Google\\ Chrome.app --args --incognito"
+alias lzd="lazydocker"
 
 # enable homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
