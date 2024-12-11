@@ -122,3 +122,6 @@ export PATH="/Users/esteban/.rd/bin:$PATH"
 export FLUVIO_BUILD_LLD=/usr/local/opt/llvm@14/bin/lld
 export LDFLAGS="-L/opt/homebrew/opt/llvm@14/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm@14/include"
+
+# brew install curl
+export PATH="$(brew --prefix)/opt/curl/bin:$PATH"
