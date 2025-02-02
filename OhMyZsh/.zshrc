@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias repos="cd ~/Repositories/src/github.com"
+alias code="cd ~/Code"
 alias subl="open -a 'Sublime Text'"
 alias sublm="open -a 'Sublime Merge'"
 alias chrome="open -a /Applications/Google\\ Chrome.app --args --incognito"
@@ -114,10 +114,6 @@ export HOMEBREW_NO_ANALYTICS=1
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/esteban/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 export FLUVIO_BUILD_LLD=/usr/local/opt/llvm@14/bin/lld
 export LDFLAGS="-L/opt/homebrew/opt/llvm@14/lib"
