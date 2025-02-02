@@ -105,11 +105,14 @@ alias sublm="open -a 'Sublime Merge'"
 alias chrome="open -a /Applications/Google\\ Chrome.app --args --incognito"
 alias lzd="lazydocker"
 
-# enable homebrew
+# Homebrew Binary Path
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # https://docs.brew.sh/Analytics#opting-out
 export HOMEBREW_NO_ANALYTICS=1
+
+# Homebrew Installed Binaries Path
+export PATH="/opt/homebrew/bin:${PATH}"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -118,6 +121,3 @@ export NVM_DIR="$HOME/.nvm"
 export FLUVIO_BUILD_LLD=/usr/local/opt/llvm@14/bin/lld
 export LDFLAGS="-L/opt/homebrew/opt/llvm@14/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm@14/include"
-
-# brew install curl
-export PATH="$(brew --prefix)/opt/curl/bin:$PATH"
