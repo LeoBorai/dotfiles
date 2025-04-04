@@ -10,12 +10,12 @@
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "model": "gpt-4"
     },
     "version": "2"
   },
   "features": {
-    "copilot": true
+    "edit_prediction_provider": "copilot"
   },
   "telemetry": {
     "diagnostics": false,
