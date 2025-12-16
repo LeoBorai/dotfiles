@@ -26,7 +26,6 @@
   "ui_font_family": "MonoLisa",
   "format_on_save": "off",
   "show_whitespaces": "all",
-  "show_copilot_suggestions": true,
   "project_panel": {
     "auto_fold_dirs": false
   },
