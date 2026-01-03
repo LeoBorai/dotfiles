@@ -1,4 +1,13 @@
+[user]
+	name = Leo Borai
+	email = estebanborai@gmail.com
 [pull]
 	rebase = true
 [alias]
 	recent-branches = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+	checkpoint = !git add -A && git commit -m "checkpoint-$(date +%Y%m%d-%H:%M:%S)" && git push origin HEAD
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
