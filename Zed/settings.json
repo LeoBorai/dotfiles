@@ -23,7 +23,10 @@
   "autosave": "off",
   "theme": "Xcode Dark",
   "buffer_font_family": "MonoLisa",
-  "ui_font_family": "MonoLisa",
+  "ui_font_family": "SF Mono",
+  "terminal": {
+    "font_family": "Consolas"
+  },
   "format_on_save": "off",
   "show_whitespaces": "all",
   "project_panel": {
