@@ -7,14 +7,14 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "edit_predictions": {
+    "provider": "copilot"
+  },
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4"
     }
-  },
-  "features": {
-    "edit_prediction_provider": "copilot"
   },
   "telemetry": {
     "diagnostics": false,
