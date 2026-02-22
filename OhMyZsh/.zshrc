@@ -106,8 +106,6 @@ alias code="cd ~/Code"
 alias chrome="open -a /Applications/Google\\ Chrome.app --args --incognito"
 alias lzd="lazydocker"
 alias lzg="lazygit"
-alias subl="open -a 'Sublime Text'"
-alias sublm="open -a 'Sublime Merge'"
 
 # enable homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -117,7 +115,6 @@ export HOMEBREW_NO_ANALYTICS=1
 
 # Homebrew Binaries
 export PATH="/opt/homebrew/bin:${PATH}"
-export PATH="${HOME}/.fvm/bin:${HOME}/.fluvio/bin:${PATH}"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
