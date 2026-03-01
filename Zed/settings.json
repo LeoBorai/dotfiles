@@ -22,11 +22,11 @@
     "metrics": false
   },
   "autosave": "off",
-  "theme": "GitHub Dark Dimmed",
+  "theme": "Xcode Dark",
   "buffer_font_family": "MonoLisa",
-  "ui_font_family": "SF Mono",
+  "ui_font_family": "JetBrains Mono",
   "terminal": {
-    "font_family": "SF Mono"
+    "font_family": "JetBrains Mono"
   },
   "format_on_save": "off",
   "show_whitespaces": "all",
