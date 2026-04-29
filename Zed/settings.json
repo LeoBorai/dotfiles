@@ -7,11 +7,27 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "cli_default_open_behavior": "existing_window",
+  "agent_servers": {
+    "github-copilot-cli": {
+      "type": "registry"
+    }
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "cursor_shape": "underline",
   "edit_predictions": {
     "provider": "copilot"
   },
   "agent": {
+    "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4"
@@ -22,15 +38,17 @@
     "metrics": false
   },
   "autosave": "off",
-  "theme": "Xcode Dark",
+  "theme": "VSCode (Default) Dark+",
   "buffer_font_family": "MonoLisa",
-  "ui_font_family": "JetBrains Mono",
+  "ui_font_family": "MonoLisa",
   "terminal": {
-    "font_family": "JetBrains Mono"
+    "font_family": "MonoLisa",
+    "font_size": 14
   },
   "format_on_save": "off",
   "show_whitespaces": "all",
   "project_panel": {
+    "dock": "left",
     "auto_fold_dirs": false
   },
   "lsp": {
