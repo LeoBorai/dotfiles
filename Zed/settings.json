@@ -43,9 +43,10 @@
   "buffer_font_size": 14,
   "ui_font_family": "MonoLisa",
   "terminal": {
+    "cursor_shape": "underline",
     "dock": "right",
     "font_family": "MonoLisa",
-    "font_size": 14
+    "font_size": 14,
   },
   "format_on_save": "off",
   "show_whitespaces": "all",
