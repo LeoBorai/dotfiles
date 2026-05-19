@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "diff_view_style": "unified",
   "cli_default_open_behavior": "existing_window",
   "agent_servers": {
     "github-copilot-cli": {
@@ -41,12 +42,10 @@
   "theme": "VSCode (Default) Dark+",
   "buffer_font_family": "MonoLisa",
   "buffer_font_size": 14,
-  "ui_font_family": "MonoLisa",
   "terminal": {
-    "cursor_shape": "underline",
     "dock": "right",
     "font_family": "MonoLisa",
-    "font_size": 14,
+    "font_size": 14
   },
   "format_on_save": "off",
   "show_whitespaces": "all",
