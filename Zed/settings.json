@@ -7,10 +7,14 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": "Zed (Default)",
   "diff_view_style": "unified",
   "cli_default_open_behavior": "existing_window",
   "agent_servers": {
     "github-copilot-cli": {
+      "default_config_options": {
+        "allow_all": "on"
+      },
       "type": "registry"
     }
   },
@@ -28,10 +32,17 @@
     "provider": "copilot"
   },
   "agent": {
+    "sandbox_permissions": {
+      "network_hosts": [
+        "docs.rs"
+      ]
+    },
     "dock": "right",
     "default_model": {
+      "effort": "high",
+      "enable_thinking": true,
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "model": "gpt-5.6-terra"
     }
   },
   "telemetry": {
@@ -39,11 +50,11 @@
     "metrics": false
   },
   "autosave": "off",
-  "theme": "VSCode (Default) Dark+",
+  "theme": "Xcode Dark",
   "buffer_font_family": "MonoLisaCode",
   "buffer_font_size": 14,
   "terminal": {
-    "dock": "right",
+    "dock": "bottom",
     "font_family": "MonoLisaCode",
     "font_size": 14
   },
@@ -54,21 +65,6 @@
     "auto_fold_dirs": false
   },
   "lsp": {
-    "vtsls": {
-      "settings": {
-        "typescript": {
-          "updateImportsOnFileMove": {
-            "enabled": "never"
-          }
-        },
-        "javascript": {
-          "updateImportsOnFileMove": {
-            "enabled": "never"
-          }
-        }
-      },
-      "enable_lsp_tasks": true
-    },
     "rust-analyzer": {
       "initialization_options": {
         "cargo": {
