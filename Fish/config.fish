@@ -10,6 +10,13 @@ eval (/opt/homebrew/bin/brew shellenv)
 # Homebrew analytics opt-out
 set -x HOMEBREW_NO_ANALYTICS 1
 
+# NodeJS Version Manager
+set -gx NVM_DIR "$HOME/.nvm"
+
+function nvm
+    bash -c "source $NVM_DIR/nvm.sh; nvm $argv"
+end
+
 # Add Homebrew binaries to PATH (usually not needed if brew shellenv works)
 fish_add_path /opt/homebrew/bin
 
