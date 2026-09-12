@@ -42,5 +42,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-font-family = MonoLisa
-theme = catppuccin-frappe
+cursor-style = "underline"
+font-family = ""
+font-family = "MonoLisaCode"
+theme = dark:Mariana,light:"Monokai Pro Light"
