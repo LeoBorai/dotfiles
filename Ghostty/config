@@ -45,5 +45,6 @@
 cursor-style = "underline"
 font-family = ""
 font-family = "MonoLisaCode"
-theme = dark:Mariana,light:"Atom One Light"
+theme = dark:Mariana,light:"Xcode Light hc"
+
 
