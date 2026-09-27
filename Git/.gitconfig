@@ -6,6 +6,7 @@
 [alias]
 	rb = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 	cp = !git add -A && git commit -m "checkpoint-$(date +%Y%m%d-%H:%M:%S)" && git push origin HEAD
+	pa = !git remote | xargs -L1 -I R git push R
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
