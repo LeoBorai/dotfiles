@@ -46,8 +46,8 @@
   "autosave": "off",
   "theme": {
     "mode": "system",
-    "light": "Ayu Light",
-    "dark": "Ayu Dark",
+    "light": "One Light",
+    "dark": "Mariana",
   },
   "buffer_font_family": "MonoLisaCode",
   "buffer_font_size": 14,
